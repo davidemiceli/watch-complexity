@@ -1,0 +1,45 @@
+{
+  "name": "watch-complexity",
+  "version": "0.1.0",
+  "description": "Artificial Intelligence from experimental research on computational social science.",
+  "license": "MIT",
+  "main": "index.js",
+  "keywords": [
+    "AI",
+    "artificialintelligence",
+    "artificial intelligence",
+    "social science",
+    "socialscience"
+  ],
+  "author": "davidemiceli",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidemiceli/watch-complexity.git"
+  },
+  "files": [
+    "index.js",
+    "algorithms",
+    "libs",
+    "test"
+  ],
+  "bugs": {
+    "url": "https://github.com/davidemiceli/watch-complexity/issues"
+  },
+  "maintainers": [
+    "davidemiceli"
+  ],
+  "homepage": "https://github.com/davidemiceli/watch-complexity#readme",
+  "directories": {
+    "algorithms": "algorithms",
+    "libs": "libs",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "nyc mocha test --recursive --full-trace"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0"
+  }
+}
