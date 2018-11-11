@@ -16,7 +16,7 @@ const compute_score = (item, index, key) => {
 }
 
 // Edge validation
-const validate_edge = (edge) => {
+const validate_edge = edge => {
   if (typeof(edge.weight) !== 'number') throw Error('All "weight" fields into edges should be a number')
   if ((typeof(edge.from) !== 'string') || (typeof(edge.to) !== 'string')) throw Error('All "from" or "to" fields into edges should be a string')
   if (edge.weight === 0) throw Error('"weight" field into edges should not be 0')

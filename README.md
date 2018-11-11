@@ -31,10 +31,10 @@ watchcomplexity.influence.typology(edges=Array[Object])
 
 Field	| Type | Required	| Description
 --- | --- | --- | ---
-edges	| [object] | yes | An array of all the connections between nodes.
-edges.from | string	| yes	| The node's name or id where the edge start: the source node of the link.
-edges.to | string	| yes	| The node's name or id where the edge end: the target node of the link.
-edges.weight | number	| yes	| The weight of the connection: how strong is the bond among the linked nodes.
+`edges`	| *[object]* | yes | An array of all the connections between nodes.
+`edges.from` | *string*	| yes	| The node's name or id where the edge start: the source node of the link.
+`edges.to` | *string*	| yes	| The node's name or id where the edge end: the target node of the link.
+`edges.weight` | *number*	| yes	| The weight of the connection: how strong is the bond among the linked nodes.
 
 ##### Example
 ```javascript

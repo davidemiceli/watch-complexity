@@ -8,7 +8,6 @@ const {
   influence_ranking
 } = require('./components/influence');
 
-const { memory_usage } = require('../../libs/helpers');
 
 // Calculate the influence of nodes from a list of edges
 function influence(edges) {
