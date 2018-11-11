@@ -10,10 +10,19 @@ The algorithm detect not only the influence played by every node inside a networ
 
 Given a large dataset of connections as input, it provides a ranking of all nodes by influence score, reporting their typology of influence. Every node plays a certain role in the network and affects the other nodes in its own different way.
 
-### How to use it
-```javascript
-const watchcomplexity = require('./index');
+### Getting started
+#### Install
+```shell
+npm install watch-complexity
 ```
+#### How to use it
+```javascript
+const watchcomplexity = require('watch-complexity');
+```
+
+### Algorithms
+Below the list of all algorithms that can be used, with usage details.
+
 #### Ranked influence typology
 
 ```javascript
@@ -39,45 +48,45 @@ const edges = [
 const nodes = watchcomplexity.influence.typology(edges);
 ```
 That will return:
-```json
+```javascript
 {
- "ranking": 
+ ranking: 
    [
-      {"node": "Marius","role": "Hub","score": 100},
-      {"node": "Courfeyrac","role": "Amplifier","score": 93.68029739776952},
-      {"node": "Enjolras","role": "Reducer","score": 92.93680297397769},
-      {"node": "Fantine","role": "Amplifier","score": 89.96282527881041},
+      {node: "Marius", role: "Hub", score: 100},
+      {node: "Courfeyrac", role: "Amplifier", score: 93.68029739776952},
+      {node: "Enjolras", role: "Reducer", score: 92.93680297397769},
+      {node: "Fantine", role: "Amplifier", score: 89.96282527881041},
       ...,
-      {"node": "Mme.Hucheloup","role": "Emitter","score": 39.405204460966544},
-      {"node": "Anzelma","role": "Low emitter","score": 34.94423791821562},
-      {"node": "Pontmercy","role": "Reducer","score": 33.08550185873605},
+      {node: "Mme.Hucheloup", role: "Emitter", score: 39.405204460966544},
+      {node: "Anzelma", role: "Low emitter", score: 34.94423791821562},
+      {node: "Pontmercy", role: "Reducer", score: 33.08550185873605},
       ...
-      {"node": "OldMan","role": "Emitter branch","score": 1.4869888475836461},
-      {"node": "Napoleon","role": "Emitter branch","score": 0}
+      {node: "OldMan", role: "Emitter branch", score: 1.4869888475836461},
+      {node: "Napoleon", role: "Emitter branch", score: 0}
    ],
-  "nodes": 77,
-  "edges": 254,
-  "distribution":  {
-      "Blackhole": 0,
-      "Vulcano": 0,
-      "Channeler": 0,
-      "Chain": 0,
-      "Bridge": 1,
-      "Connector": 3,
-      "Emitter branch": 15,
-      "Receiver branch": 2,
-      "Receiver": 2,
-      "Emitter": 4,
-      "Low emitter": 9,
-      "Idle": 0,
-      "Transceiver": 5,
-      "Tophub": 0,
-      "Hub": 1,
-      "Dam": 6,
-      "Reducer": 12,
-      "Megamplifier": 7,
-      "Amplifier": 10
-   }
+  nodes: 77,
+  edges: 254,
+  distribution:  {
+    Blackhole: 0,
+    Vulcano: 0,
+    Channeler: 0,
+    Chain: 0,
+    Bridge: 1,
+    Connector: 3,
+    'Emitter branch': 15,
+    'Receiver branch': 2,
+    Receiver: 2,
+    Emitter: 4,
+    'Low emitter': 9,
+    Idle: 0,
+    Transceiver: 5,
+    Tophub: 0,
+    Hub: 1,
+    Dam: 6,
+    Reducer: 12,
+    Megamplifier: 7,
+    Amplifier: 10
+  }
 }
 ```
 
