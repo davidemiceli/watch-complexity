@@ -6,7 +6,7 @@ Artificial Intelligence from experimental research on computational social scien
 ### Description
 Detect the type of influence that each node holds within a network.
 
-The algorithm detect not only the influence played by every node inside a network, but also how it contributes to the overall network (for example the word-of-mouth, content creation, and diffusion of information).
+The algorithm detects not only the influence played by every node inside a network, but also how it contributes to the overall network (for example the word-of-mouth, content creation, and diffusion of information).
 
 Given a large dataset of connections as input, it provides a ranking of all nodes by influence score, reporting their typology of influence. Every node plays a certain role in the network and affects the other nodes in its own different way.
 
@@ -32,11 +32,11 @@ watchcomplexity.influence.typology(edges=Array[Object])
 Field	| Type | Required	| Description
 --- | --- | --- | ---
 edges	| [object] | yes | An array of all the connections between nodes.
-edges > from | string	| yes	| The node's name or id where the edge start: the source node of the link.
-edges > to | string	| yes	| The node's name or id where the edge end: the target node of the link.
-edges > weight | number	| yes	| The weight of the connection: how strong is the bond among the linked nodes.
+edges.from | string	| yes	| The node's name or id where the edge start: the source node of the link.
+edges.to | string	| yes	| The node's name or id where the edge end: the target node of the link.
+edges.weight | number	| yes	| The weight of the connection: how strong is the bond among the linked nodes.
 
-Example
+##### Example
 ```javascript
 // The list of edges
 const edges = [
@@ -91,7 +91,7 @@ That will return:
 ```
 
 ## Tests
-The algorithms are deep tested. Unit tests are inside the folder `/test`, included test coverage through `nyc`.
+Unit tests are inside the folder `/test`, included test coverage through `nyc`.
 
 To run all unit tests, type:
 ```shell
