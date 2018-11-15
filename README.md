@@ -1,42 +1,27 @@
 # Watch Complexity
 Artificial Intelligence from experimental research on computational social science.
 
-## Ranked influence typology
+## Description
+WatchComplexity is a Machine Learning framework to understand and analyze complex networks and more in general complex data. It is a collection of _**clustering techniques**_ inspired by social science and communication theories.
 
-### Description
-Detect the type of influence that each node holds within a network.
+## Documentation
+All useful informations can be found in the wiki documentation:
+- [**Introduction**](https://github.com/davidemiceli/watch-complexity/wiki)
+- [**Installation**](https://github.com/davidemiceli/watch-complexity/wiki/Installation)
+- [**Algorithms**](https://github.com/davidemiceli/watch-complexity/wiki/algorithms)
+  - [**Ranked Influence Typology**](https://github.com/davidemiceli/watch-complexity/wiki/Ranked-influence-typology)
+- [**Testing**](https://github.com/davidemiceli/watch-complexity/wiki/testing)
 
-The algorithm detects not only the influence played by every node inside a network, but also how it contributes to the overall network (for example the word-of-mouth, content creation, and diffusion of information).
-
-Given a large dataset of connections as input, it provides a ranking of all nodes by influence score, reporting their typology of influence. Every node plays a certain role in the network and affects the other nodes in its own different way.
-
-### Getting started
-#### Install
+## Getting started
+### Install
 ```shell
 npm install watch-complexity
 ```
-#### How to use it
+### How to use it
 ```javascript
 const watchcomplexity = require('watch-complexity');
 ```
-
-### Algorithms
-Below the list of all algorithms that can be used, with usage details.
-
-#### Ranked influence typology
-
-```javascript
-watchcomplexity.influence.typology(edges=Array[Object])
-```
-
-Field	| Type | Required	| Description
---- | --- | --- | ---
-`edges`	| *[object]* | yes | An array of all the connections between nodes.
-`edges.from` | *string*	| yes	| The node's name or id where the edge start: the source node of the link.
-`edges.to` | *string*	| yes	| The node's name or id where the edge end: the target node of the link.
-`edges.weight` | *number*	| yes	| The weight of the connection: how strong is the bond among the linked nodes.
-
-##### Example
+Example of use:
 ```javascript
 // The list of edges
 const edges = [
@@ -47,7 +32,7 @@ const edges = [
 // Measure the influence score and detect the influence roles
 const nodes = watchcomplexity.influence.typology(edges);
 ```
-That will return:
+That will return as result:
 ```javascript
 {
  ranking: 
@@ -97,3 +82,6 @@ To run all unit tests, type:
 ```shell
 npm test
 ```
+
+### Motivation
+Our main goal is to do experimental research with practical applications.
