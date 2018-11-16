@@ -6,7 +6,7 @@ const {
   network_statistics,
   detect_roles,
   influence_ranking
-} = require('./components/influence');
+} = require('./components/libs');
 
 
 // Calculate the influence of nodes from a list of edges

@@ -1,7 +1,7 @@
 'use strict';
 
 // Requirements
-const { euclidean_distance } = require('../../../libs/helpers');
+const { euclidean_distance } = require('../../../../libs/helpers');
 
 
 // Get the influence role of a node

@@ -2,6 +2,7 @@
 
 // Requirements
 const expect = require('chai').expect;
+const watchcomplexity = require('../../../index');
 const mocks = {
   edges: require('./mocks/influence/edges'),
   nodes: require('./mocks/influence/nodes'),
@@ -14,13 +15,12 @@ const {
   network_statistics,
   detect_roles,
   influence_ranking
-} = require('../algorithms/influence/components/influence');
-const influence = require('../algorithms/influence/influence');
+} = require('../../../algorithms/influence/typology/components/libs');
 
-// Influence tests
-describe('Influence', () => {
 
-  describe('Libs', () => {
+describe('Ranked Influence Typology', () => {
+
+  describe('Components', () => {
 
     it('calculate in degree and out degree', () => {
       const edges = mocks.edges;
@@ -70,7 +70,7 @@ describe('Influence', () => {
 
     it('rank nodes by influence with their roles', () => {
       const edges = mocks.edges;
-      const res = influence(edges);
+      const res = watchcomplexity.influence.typology(edges);
       expect(res).to.deep.equal({
         ranking: mocks.ranked_nodes,
         nodes: 77,

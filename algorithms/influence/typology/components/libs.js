@@ -7,7 +7,7 @@ const {
   euclidean_distance,
   as_percentage,
   extremes_values
-} = require('../../../libs/helpers');
+} = require('../../../../libs/helpers');
 
 // Add the index for every object in an array
 const compute_score = (item, index, key) => {
