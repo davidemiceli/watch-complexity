@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   id="svg5007"
+   viewBox="0 0 59.06865 70.168234"
+   height="19.803036mm"
+   width="16.670486mm">
+  <defs
+     id="defs5009">
+    <marker
+       style="overflow:visible"
+       id="marker21270"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="scale(0.4,0.4)"
+         style="fill:#a7a7a7;fill-opacity:1;fill-rule:evenodd;stroke:#a7a7a7;stroke-width:1pt;stroke-opacity:1"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         id="path21159" />
+    </marker>
+    <marker
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker7525"
+       style="overflow:visible">
+      <path
+         id="path7527"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill:#a7a7a7;fill-opacity:1;fill-rule:evenodd;stroke:#a7a7a7;stroke-width:1pt;stroke-opacity:1"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker7395"
+       style="overflow:visible">
+      <path
+         id="path7397"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill:#999999;fill-opacity:0.94117647;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:0.85490196"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker7271"
+       style="overflow:visible">
+      <path
+         id="path7273"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill:#a7a7a7;fill-opacity:1;fill-rule:evenodd;stroke:#a7a7a7;stroke-width:1pt;stroke-opacity:1"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker7153"
+       style="overflow:visible">
+      <path
+         id="path7155"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill:#a7a7a7;fill-opacity:1;fill-rule:evenodd;stroke:#a7a7a7;stroke-width:1pt;stroke-opacity:1"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker7041"
+       style="overflow:visible">
+      <path
+         id="path7043"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill:#a7a7a7;fill-opacity:1;fill-rule:evenodd;stroke:#a7a7a7;stroke-width:1pt;stroke-opacity:1"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker6935"
+       style="overflow:visible">
+      <path
+         id="path6937"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill:#a7a7a7;fill-opacity:1;fill-rule:evenodd;stroke:#a7a7a7;stroke-width:1pt;stroke-opacity:1"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker6835"
+       style="overflow:visible">
+      <path
+         id="path6837"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill:#a7a7a7;fill-opacity:1;fill-rule:evenodd;stroke:#a7a7a7;stroke-width:1pt;stroke-opacity:1"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker6741"
+       style="overflow:visible">
+      <path
+         id="path6743"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill:#a7a7a7;fill-opacity:1;fill-rule:evenodd;stroke:#a7a7a7;stroke-width:1pt;stroke-opacity:1"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker6653"
+       style="overflow:visible">
+      <path
+         id="path6655"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill:#a7a7a7;fill-opacity:1;fill-rule:evenodd;stroke:#a7a7a7;stroke-width:1pt;stroke-opacity:1"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker6571"
+       style="overflow:visible">
+      <path
+         id="path6573"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill:#a7a7a7;fill-opacity:1;fill-rule:evenodd;stroke:#a7a7a7;stroke-width:1pt;stroke-opacity:1"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker6495"
+       style="overflow:visible">
+      <path
+         id="path6497"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill:#a7a7a7;fill-opacity:1;fill-rule:evenodd;stroke:#a7a7a7;stroke-width:1pt;stroke-opacity:1"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker6425"
+       style="overflow:visible">
+      <path
+         id="path6427"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill:#a7a7a7;fill-opacity:1;fill-rule:evenodd;stroke:#a7a7a7;stroke-width:1pt;stroke-opacity:1"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker6361"
+       style="overflow:visible">
+      <path
+         id="path6363"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill:#a7a7a7;fill-opacity:1;fill-rule:evenodd;stroke:#a7a7a7;stroke-width:1pt;stroke-opacity:1"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker6303"
+       style="overflow:visible">
+      <path
+         id="path6305"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill:#a7a7a7;fill-opacity:1;fill-rule:evenodd;stroke:#a7a7a7;stroke-width:1pt;stroke-opacity:1"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker6251"
+       style="overflow:visible">
+      <path
+         id="path6253"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill:#a7a7a7;fill-opacity:1;fill-rule:evenodd;stroke:#a7a7a7;stroke-width:1pt;stroke-opacity:1"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker6205"
+       style="overflow:visible">
+      <path
+         id="path6207"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill:#a7a7a7;fill-opacity:1;fill-rule:evenodd;stroke:#a7a7a7;stroke-width:1pt;stroke-opacity:1"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker5252"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="scale(0.4,0.4)"
+         style="fill:#a7a7a7;fill-opacity:1;fill-rule:evenodd;stroke:#a7a7a7;stroke-width:1pt;stroke-opacity:1"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         id="path5254" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker5076"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="scale(0.4,0.4)"
+         style="fill:#a7a7a7;fill-opacity:1;fill-rule:evenodd;stroke:#a7a7a7;stroke-width:1pt;stroke-opacity:1"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         id="path5078" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker5022"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="scale(0.4,0.4)"
+         style="fill:#a7a7a7;fill-opacity:1;fill-rule:evenodd;stroke:#a7a7a7;stroke-width:1pt;stroke-opacity:1"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         id="path5024" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleOutM"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="scale(0.4,0.4)"
+         style="fill:#a7a7a7;fill-opacity:1;fill-rule:evenodd;stroke:#a7a7a7;stroke-width:1pt;stroke-opacity:1"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         id="path4315" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata5012">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-94.833562,-76.261692)"
+     id="layer1">
+    <circle
+       r="4.821465"
+       cy="107.66003"
+       cx="112.99213"
+       id="path4158-83"
+       style="fill:#d35f5f;fill-opacity:0.94117647;stroke:none;stroke-width:3.31999993;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.85490196" />
+    <path
+       id="path6938"
+       d="M 96.040667,145.21434 107.52765,119.77888"
+       style="fill:#a7a7a7;fill-opacity:1;stroke:#a7a7a7;stroke-width:2.4000001;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker6303)" />
+    <path
+       id="path7000"
+       d="m 152.68576,118.3873 -26.25597,-7.38449"
+       style="fill:#a7a7a7;fill-opacity:1;stroke:#a7a7a7;stroke-width:2.4000001;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker6251)" />
+    <path
+       id="path8461"
+       d="m 107.19041,77.478512 3.01724,16.810344"
+       style="fill:#a7a7a7;fill-opacity:1;stroke:#a7a7a7;stroke-width:2.4000001;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker21270)" />
+  </g>
+</svg>
