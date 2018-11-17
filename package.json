@@ -36,7 +36,7 @@
   "maintainers": [
     "davidemiceli"
   ],
-  "homepage": "https://github.com/davidemiceli/watch-complexity#readme",
+  "homepage": "https://davidemiceli.github.io/watch-complexity",
   "directories": {
     "algorithms": "algorithms",
     "libs": "libs",
