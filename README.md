@@ -5,12 +5,18 @@ Artificial Intelligence from experimental research on computational social scien
 WatchComplexity is a Machine Learning framework to understand and analyze complex networks and more in general complex data. It is a collection of _**clustering techniques**_ inspired by social science and communication theories.
 
 ## Documentation
+
 All useful informations can be found in the wiki documentation:
 - [**Introduction**](https://github.com/davidemiceli/watch-complexity/wiki)
 - [**Installation**](https://github.com/davidemiceli/watch-complexity/wiki/Installation)
 - [**Algorithms**](https://github.com/davidemiceli/watch-complexity/wiki/algorithms)
-  - [**Ranked Influence Typology**](https://github.com/davidemiceli/watch-complexity/wiki/Ranked-influence-typology)
 - [**Testing**](https://github.com/davidemiceli/watch-complexity/wiki/testing)
+
+## Algorithms
+The tool provides the following algorithms.
+
+- [**Ranked influence typology**](https://github.com/davidemiceli/watch-complexity/wiki/Ranked-influence-typology)  <br>*Detect the type of influence that each node holds within a network.*
+- [**Network Similarity**](https://github.com/davidemiceli/watch-complexity/wiki/Network-similarity)<br>*Measures the similarity between different networks.*
 
 ## Getting started
 ### Install
@@ -85,3 +91,6 @@ npm test
 
 ### Motivation
 Our main goal is to do experimental research with practical applications.
+
+# License
+WatchComplexity is available under the [MIT license](https://opensource.org/licenses/MIT).
