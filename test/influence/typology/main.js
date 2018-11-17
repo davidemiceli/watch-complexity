@@ -4,11 +4,11 @@
 const expect = require('chai').expect;
 const watchcomplexity = require('../../../index');
 const mocks = {
-  edges: require('./mocks/influence/edges'),
-  nodes: require('./mocks/influence/nodes'),
-  roletypes: require('./mocks/influence/roletypes'),
-  nodelist: require('./mocks/influence/nodelist'),
-  ranked_nodes: require('./mocks/influence/ranked_nodes')
+  edges: require('./mocks/edges'),
+  nodes: require('./mocks/nodes'),
+  roletypes: require('./mocks/roletypes'),
+  nodelist: require('./mocks/nodelist'),
+  ranked_nodes: require('./mocks/ranked_nodes')
 };
 const {
   in_out_degree,
@@ -22,7 +22,7 @@ describe('Ranked Influence Typology', () => {
 
   describe('Components', () => {
 
-    it('calculate in degree and out degree', () => {
+    it('calculates in degree and out degree', () => {
       const edges = mocks.edges;
       const { nodes, num_of_nodes } = in_out_degree(edges);
       expect(nodes).to.be.an('object');
@@ -33,7 +33,7 @@ describe('Ranked Influence Typology', () => {
       expect(num_of_nodes).to.equal(77);
     });
 
-    it('calculate network statistics', () => {
+    it('calculates network statistics', () => {
       const nodes = mocks.nodes;
       const num_of_nodes = Object.keys(nodes).length;
       const { means, potential_mean, maxdegree, boxmeans } = network_statistics(nodes, num_of_nodes);
@@ -43,7 +43,7 @@ describe('Ranked Influence Typology', () => {
       expect(boxmeans).to.equal(1.16626702871028);
     });
 
-    it('detect the influence roles of nodes', () => {
+    it('detects the influence roles of nodes', () => {
       const nodes = mocks.nodes;
       const roletypes = mocks.roletypes;
       const nodelist = mocks.nodelist;
@@ -56,7 +56,7 @@ describe('Ranked Influence Typology', () => {
       expect(res.nodelist).to.have.deep.members(nodelist);
     });
 
-    it('return the nodes ranked by influence with their roles', () => {
+    it('returns the nodes ranked by influence with their roles', () => {
       const nodelist = mocks.nodelist;
       const num_of_nodes = nodelist.length;
       const ranked_nodes = mocks.ranked_nodes;
@@ -68,7 +68,7 @@ describe('Ranked Influence Typology', () => {
 
   describe('Algorithm', () => {
 
-    it('rank nodes by influence with their roles', () => {
+    it('ranks nodes by influence with their roles', () => {
       const edges = mocks.edges;
       const res = watchcomplexity.influence.typology(edges);
       expect(res).to.deep.equal({

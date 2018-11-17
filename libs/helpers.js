@@ -28,9 +28,13 @@ const memory_usage = (prefix) => {
   }
 }
 
+// Sum values for reduce array
+const sum = (x, y) => x + y;
+
 module.exports = {
   euclidean_distance,
   as_percentage,
   extremes_values,
-  memory_usage
+  memory_usage,
+  sum
 };
