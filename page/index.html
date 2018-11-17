@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="WatchComplexity, AI from experimental research on computational social science">
   <meta name="author" content="WatchComplexity">
-  <title>WatchComplexity &mdash; AI to analyze complex networks</title>
+  <title>WatchComplexity &mdash; AI to analyze complex networks and more in general complex data.</title>
   <!-- CSS Plugins-->
   <link href="/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <!-- CSS Custom-->
@@ -41,7 +41,7 @@
       <div class="navbar-collapse collapse">
         <ul class="fullpage__nav nav navbar-nav navbar-right">
           <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
+          <li><a href="#algorithms">Algorithms</a></li>
           <li><a href="https://github.com/davidemiceli/watch-complexity/wiki" target="_blank">Documentation</a></li>
           <li><a href="https://github.com/davidemiceli/watch-complexity" target="_blank">Github</a></li>
         </ul>
@@ -61,7 +61,7 @@
     <div class="sidebar-menu__brand">WatchComplexity</div>
     <ul class="fullpage__nav sidebar-menu__ul nav">
       <li><a href="#about">About</a></li>
-      <li><a href="#services">Services</a></li>
+      <li><a href="#algorithms">Algorithms</a></li>
       <li><a href="https://github.com/davidemiceli/watch-complexity/wiki" target="_blank">Documentation</a></li>
       <li><a href="https://github.com/davidemiceli/watch-complexity" target="_blank">Github</a></li>
     </ul>
@@ -74,29 +74,32 @@
           <div class="col-xs-12">
             <!-- Pre heading-->
             <!-- Heading-->
-            <h1 class="heading">AI framework to analyze complex networks</h1>
+            <h1 class="heading">Machine learning framework to analyze complex networks</h1>
             <!-- Sub heading-->
             <div class="heading__sub">
               <p><strong>Artificial Intelligence from experimental research on computational social science</strong></p>
             </div>
-            <div class="text-center"><a href="#services" style="margin-top: 15px;" class="btn btn-lg btn-gray btn-outline">Find Out More</a></div>
+            <div class="text-center"><a href="#description" style="margin-top: 15px;" class="btn btn-lg btn-gray btn-outline">Find Out More</a></div>
           </div>
         </div>
       </div>
     </div>
   </div>
   <!--USE CASES ==============================-->
-  <!-- <div id="description" style="background-color: #ddd;" class="site-wrapper">
-    <div class="container">
-      <h3 style="margin-bottom: 40px;" class="about-item__title text-center">WatchComplexity is a javascript framework to analyze complex data.</h3>
+  <div id="description" style="background-color: #ddd;" class="site-wrapper">
+    <div style="text-align: center;">
+      <h3 style="margin-bottom: 40px;" class="about-item__title text-center">
+        <p>WatchComplexity is a Machine Learning framework to understand and analyze complex networks and more in general complex data.</p>
+        <p>It is a collection of <em>clustering techniques</em> inspired by social science and communication theories.</p>
+      </h3>
     </div>
-  </div> -->
+  </div>
   <!-- SERVICES ==============================-->
-  <div id="services" style="background-color: #eee;" class="site-wrapper">
+  <div id="algorithms" style="background-color: #eee;" class="site-wrapper">
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
-          <h1 style="margin-top: 0px; margin-bottom: 50px;" class="heading text-center">Services</h1>
+          <h1 style="margin-top: 0px; margin-bottom: 50px;" class="heading text-center">Algorithms</h1>
         </div>
       </div>
       <hr class="services-line" style="margin-top: 0px;">
@@ -108,7 +111,9 @@
             contributes to the overall network (word-of-mouth, content creation, and diffusion of information are just examples).</p>
           <p>Given a large dataset of connections as input, it provides a ranking of all nodes by influence score, reporting
             their typology of influence. Every node plays a certain role in the network and affects the other nodes in its own different way.</p>
-          <p><a href="/influence" style="margin-top: 20px;" class="btn btn-lg btn-lightgray btn-outline">Read details</a>&nbsp;
+          <p>Technically, it is a clustering algorithm useful for understanding very large and complex networks that are also impossible to visualize,
+            grouping their components according to their internal flows.</p>
+          <p><a href="https://github.com/davidemiceli/watch-complexity/wiki/Ranked-influence-typology" style="margin-top: 20px;" class="btn btn-lg btn-lightgray btn-outline">Read details</a>&nbsp;
             <a href="https://npm.runkit.com/watch-complexity" target="_blank" style="margin-top: 20px;" class="btn btn-lg btn-green btn-outline">Test with RunKit</a></p>
         </div>
         <div class="col-sm-6"><img src="/img/influence.svg" style="width: 100%; margin: 10px;" class="less-margin"></div>
@@ -117,15 +122,14 @@
       <div class="row">
         <div class="col-sm-6">
           <h1 class="about-item__title">Network Similarity</h1>
-          <h4 class="about-item__title">Measures the similarity between two networks.</h4>
-          <p>The comparison between networks is conceived not only in terms of nodes' similarity, but also from a
+          <h4 class="about-item__title">Measures the similarity between two or more networks.</h4>
+          <p>The comparison between networks is conceived not only in terms of similarity of their nodes, but also from a
             functional point of view, watching their structures and the flow of information by a semantic perspective.</p>
-          <p>Given two large datasets of connections as input, it provides two different misures of similarity: one
-            more closely related to the exact structure, the other more qualitative, closely related to a functional
-            approach.</p>
+          <p>Given some distributions of influences measured using <em>Ranked influence typology algorithm</em>, and the number of connections, it provides two different misures of similarity:
+            a quantitative one, along with another more qualitative.</p>
           <p>Finding how similar are personal profiles of users, similarities between maps of interactions or how
             strong are the similitudes in patterns of data, are only examples.</p>
-          <p><a href="/similarity" style="margin-top: 20px;" class="btn btn-lg btn-lightgray btn-outline">Read details</a>&nbsp;
+          <p><a href="https://github.com/davidemiceli/watch-complexity/wiki/Network-similarity" style="margin-top: 20px;" class="btn btn-lg btn-lightgray btn-outline">Read details</a>&nbsp;
             <a href="https://npm.runkit.com/watch-complexity" target="_blank" style="margin-top: 20px;" class="btn btn-lg btn-green btn-outline">Test with RunKit</a></p>
         </div>
         <div class="col-sm-6"><img src="/img/similarity.svg" style="width: 100%; margin: 10px;" class="less-margin"></div>

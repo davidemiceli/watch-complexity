@@ -89,7 +89,7 @@ To run all unit tests, type:
 npm test
 ```
 
-## Motivation
+# Motivation
 Our main goal is to do experimental research with practical applications.
 
 # License
