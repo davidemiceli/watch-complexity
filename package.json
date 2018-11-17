@@ -1,6 +1,6 @@
 {
   "name": "watch-complexity",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Artificial Intelligence from experimental research on computational social science.",
   "license": "MIT",
   "main": "index.js",
@@ -9,7 +9,15 @@
     "artificialintelligence",
     "artificial intelligence",
     "social science",
-    "socialscience"
+    "socialscience",
+    "communication science",
+    "machine learning",
+    "ML",
+    "data science",
+    "datascience",
+    "humanities",
+    "research",
+    "computational social science"
   ],
   "author": "davidemiceli",
   "repository": {
