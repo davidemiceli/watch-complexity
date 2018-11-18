@@ -1,4 +1,4 @@
-# Watch Complexity
+# Watch Complexity  &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/davidemiceli/watch-complexity/blob/master/LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/davidemiceli/watch-complexity/pulls)
 Artificial Intelligence from experimental research on computational social science.
 
 ## Description
@@ -93,4 +93,4 @@ npm test
 Our main goal is to do experimental research with practical applications.
 
 # License
-WatchComplexity is available under the [MIT license](https://opensource.org/licenses/MIT).
+WatchComplexity is an open source project available under the [MIT license](https://github.com/davidemiceli/watch-complexity/blob/master/LICENSE).
