@@ -1,8 +1,7 @@
 # Watch Complexity  &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/davidemiceli/watch-complexity/blob/master/LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/davidemiceli/watch-complexity/pulls)
-Artificial Intelligence from experimental research on computational social science.
 
 ## Description
-WatchComplexity is a Machine Learning framework to understand and analyze complex networks and more in general complex data. It is a collection of _**clustering techniques**_ inspired by social science and communication theories.
+WatchComplexity is a package to understand and analyze complex networks and more in general complex data. It is a collection of _**clustering techniques**_ inspired by social science and communication theories.
 
 ## Documentation
 
